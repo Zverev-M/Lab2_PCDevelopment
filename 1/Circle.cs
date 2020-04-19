@@ -41,5 +41,10 @@ namespace _1
         {
             return 2 * R;
         }
+
+        public double SquareOfSector(int degree)
+        {
+            return Square() * degree / 360;
+        }
     }
 }
