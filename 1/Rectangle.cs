@@ -23,6 +23,11 @@ namespace _1
             return 2 * A + 2 * B;
         }
 
+        public int GetA()
+        {
+            return A;
+        }
+
         
     }
 }
