@@ -1,0 +1,6 @@
+[submodule "task-5-cl-interface-for-database-server-Zverev-M"]
+	path = task-5-cl-interface-for-database-server-Zverev-M
+	url = https://github.com/itmo-java-basics-2020/task-5-cl-interface-for-database-server-Zverev-M.git
+[submodule "task-2-datatypes-and-operators-Zverev-M"]
+	path = task-2-datatypes-and-operators-Zverev-M
+	url = https://github.com/itmo-java-basics-2020/task-2-datatypes-and-operators-Zverev-M.git
