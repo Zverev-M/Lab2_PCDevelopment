@@ -23,6 +23,14 @@ namespace _1
             return 2 * A + 2 * B;
         }
 
-        
+        public double Diagonal()
+        {
+            return Math.Sqrt(A * A + B * B);
+        }
+
+        public int NumberOfFoursquaresInRectangle()
+        {
+            return Square() / (Math.Min(A, B) * Math.Min(A, B));
+        }
     }
 }

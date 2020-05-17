@@ -35,5 +35,14 @@ namespace _1
             return A + B + C;
         }
 
+        public double SemiPerimeter()
+        {
+            return Perimeter() / 2;
+        }
+
+        public bool CompareWith(Triangle OtherTriangle)
+        {
+            return (A == OtherTriangle.A && B == OtherTriangle.B && C == OtherTriangle.C);
+        }
     }
 }
